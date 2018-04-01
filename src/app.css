@@ -1,0 +1,30 @@
+
+
+#container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.grid {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 50%;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+}
+.body {
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+
+.body div {
+    margin-bottom: 20px;
+}
